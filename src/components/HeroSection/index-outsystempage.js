@@ -12,9 +12,7 @@ const HeroSectionOutsystem = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1 src={logo}></HeroH1>
-                <HeroP src={arrow}>
-                  
-                </HeroP>
+
             </HeroContent>
         </HeroContainer>
     )
