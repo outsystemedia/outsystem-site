@@ -2,7 +2,7 @@ import React from 'react'
 import { HeroBg, HeroContainer, HeroContent, HeroH1, HeroP, VideoBg } from './HeroElements-outsystempage'
 import Video from '../../videos/space.mp4'
 import logo from '../../images/logo.png'
-import arrow from '../../images/whitearrow.png'
+
 
 const HeroSectionOutsystem = () => {
     return (

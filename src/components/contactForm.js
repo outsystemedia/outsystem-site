@@ -1,6 +1,6 @@
 import emailjs from "emailjs-com";
 import React from 'react';
-import { GlobalStyle, StyledFormWrapper, StyledForm, StyledInput, StyledTextArea, StyledError, StyledButton } from '../components/contactFormElements'
+import { GlobalStyle, StyledFormWrapper, StyledForm, StyledInput, StyledTextArea, StyledButton } from '../components/contactFormElements'
 
 function ContactUs() {
     function sendEmail(e) {
