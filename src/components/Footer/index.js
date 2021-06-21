@@ -47,9 +47,6 @@ const Footer = () => {
                             <SocialIconLink href="//www.twitter.com/outsystemedia" target="_blank" aria-label="Twitter">
                                 <FaTwitter />
                             </SocialIconLink>
-                            <SocialIconLink href="//www.reddit.com/user/outsystemedia" target="_blank" aria-label="Reddit">
-                                <FaReddit />
-                            </SocialIconLink>
                         </SocialIcons>
                     </SocialMediaWrap>
                 </SocialMedia>
