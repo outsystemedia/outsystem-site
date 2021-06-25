@@ -28,7 +28,7 @@ export const homeObjTwo = {
     lightTextDesc: false,
     topLine: 'Como funciona',
     headline: 'RENTABILIDADE & ESTRATÉGIAS',
-    description: 'Nós não garantimos rentabilidade mensal, devido a grande volatilidade que este mercado possui. Porém, fechando o pacote anual, garantimos 12% a.a no plano "Doge" e 15% a.a no "Plano To the Moon" e "Musk".',
+    description: 'Alcance grandes rentabilidades com um mercado extremamente volatil! Faça um plano anual e tenha a tranquilidade de investir com retorno garantido!.',
     buttonLabel: 'Saiba Mais',
     imgStart: true,
     img: svg2, 
