@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { LoaderVideoErax, ArrowForward, ArrowRight, HeroBg, HeroBtnWrapper, HeroContainer, HeroContent, HeroH1, HeroP, VideoBg } from './HeroElements'
-import Video from '../../videos/video.mp4'
+import Video from '../../videos/test.jpg'
 import { Button } from '../ButtonElement'
 import Video2 from '../../videos/video-erax.mp4'
 
@@ -13,8 +13,8 @@ const HeroSection = () => {
     return (
         <HeroContainer>
             <HeroBg>
-                <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
-                <LoaderVideoErax autoPlay loop muted src={Video2} type='video/mp4' />
+                <VideoBg src={Video} type='image' />
+                <LoaderVideoErax autoPlay muted src={Video2} type='video/mp4' />
             </HeroBg>
             <HeroContent>
                 <HeroH1>Transformando pequenos canais em grandes negócios.</HeroH1>
