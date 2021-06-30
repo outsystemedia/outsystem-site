@@ -1,6 +1,6 @@
 import React from 'react'
 import { Column1, Column2, Heading, Img, ImgWrap, InfoContainer, InfoRow, InfoWrapper, Subtitle, TextWrapper, TopLine } from './InfoElements-eraxpage'
-import { FaInstagram, FaItunesNote, FaPlay, FaYoutube } from 'react-icons/fa'
+import { FaFacebook, FaInstagram, FaItunesNote, FaPlay, FaYoutube } from 'react-icons/fa'
 import { SocialIconLink, SocialIcons } from './../InfoSection/InfoElements-eraxpage'
 
 const InfoSectionErax = ({ lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, alt, primary, dark, dark2, img}) => {
@@ -26,6 +26,9 @@ const InfoSectionErax = ({ lightBg, id, imgStart, topLine, lightText, headline, 
                                     </SocialIconLink>
                                     <SocialIconLink href="//www.tiktok.com/@projeto.erax?lang=pt-BR/" target="_blank" aria-label="Tiktok">
                                         <FaItunesNote />
+                                    </SocialIconLink>
+                                    <SocialIconLink href="//www.facebook.com/outsystem.media/" target="_blank" aria-label="Facebook">
+                                        <FaFacebook />
                                     </SocialIconLink>
                                 </SocialIcons>
                             </TextWrapper>
