@@ -103,3 +103,7 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
 export const LoaderVideoErax = styled.video `
     display: none;
 `
+
+export const LoaderImgEbook = styled.img `
+    display: none;
+`

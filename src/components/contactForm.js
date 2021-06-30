@@ -19,7 +19,7 @@ function ContactUs() {
             <GlobalStyle />
                 <StyledFormWrapper id="email">
                     <StyledForm onSubmit={sendEmail}>
-                        <h2> Contate via e-mail. </h2>
+                        <h2> Faça contato via e-mail. </h2>
                         <div className="row pt-5 mx-auto">
                             <label htmlFor="name" className="col-8 form-group pt-2 mx-auto">
                                 <StyledInput type="text" className="form-control" placeholder="Nome" name="name"/>

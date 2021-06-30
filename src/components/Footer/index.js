@@ -25,7 +25,7 @@ const Footer = () => {
                             <FooterLinkTitle>Nossos Projetos</FooterLinkTitle>
                             <FooterLink to="/ebook">Viva de Internet</FooterLink>
                             <FooterLink to="/erax">Projeto Era X</FooterLink>
-                            <FooterLink to="/club">Cold Club</FooterLink>
+                            {/*<FooterLink to="/club">Cold Club</FooterLink> */}
                         </FooterLinkItems>
                     </FooterLinksWrapper> 
                 </FooterLinksContainer>

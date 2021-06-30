@@ -31,11 +31,11 @@ const ServicesOutsystem = () => {
                     <ServicesP>
                     <SocialIcons>
                         <SocialIconLink target="_blank" aria-label="Check"><FaCheckCircle /></SocialIconLink>       
-                            Conheça nossas Rede Sociais
+                            Conheça nossas Redes Sociais
                     </SocialIcons>
                     <SocialIcons>
                         <SocialIconLink target="_blank" aria-label="Check"><FaCheckCircle /></SocialIconLink>       
-                            Envie um e-mail direto
+                            Envie um e-mail 
                     </SocialIcons>
                     </ServicesP>
                 </ServicesCard>

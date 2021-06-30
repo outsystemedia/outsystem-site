@@ -13,27 +13,27 @@ const ServicesEbook = () => {
                     <ServicesP>
                     <SocialIcons>
                         <SocialIconLink target="_blank" aria-label="Check"><FaCheckCircle /></SocialIconLink>       
-                            Marketing Digital
+                            Técnicas de Marketing Digital
                     </SocialIcons>
                     <SocialIcons>
                         <SocialIconLink target="_blank" aria-label="Check"><FaCheckCircle /></SocialIconLink>       
-                            Mais de 100 sites mencionados
+                            Dezenas de sites para fazer dinheiro
                     </SocialIcons>
                     <SocialIcons>
                         <SocialIconLink target="_blank" aria-label="Check"><FaCheckCircle /></SocialIconLink>       
-                            Estratégias de como iniciar
+                            Estratégias de como iniciar seu negócio
                     </SocialIcons>
                     <SocialIcons>
                         <SocialIconLink target="_blank" aria-label="Check"><FaCheckCircle /></SocialIconLink>       
-                            Fontes de Renda passivas
+                            Fontes de Renda Passivas
                     </SocialIcons>
                     <SocialIcons>
                         <SocialIconLink target="_blank" aria-label="Check"><FaCheckCircle /></SocialIconLink>       
-                            Comece a faturar em 1 dia
+                            Comece a faturar em menos de 24 horas
                     </SocialIcons>
                     <SocialIcons>
                         <SocialIconLink target="_blank" aria-label="Check"><FaCheckCircle /></SocialIconLink>       
-                            Mude seu Mindset
+                            Crie um Mindset empreendedor!
                     </SocialIcons>
                     </ServicesP>
                 </ServicesCard>
