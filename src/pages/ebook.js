@@ -27,8 +27,8 @@ const EbookPage = () => {
             <HeroSectionEbook />
             <InfoSectionEbook {...homeObjTwo}/>
             <InfoSectionEbook {...homeObjOne}/>
-            <InfoSectionEbook {...homeObjFour}/>
-            <InfoSectionEbook {...homeObjThree}/>
+            {/* <InfoSectionEbook {...homeObjFour}/> */}
+            {/* <InfoSectionEbook {...homeObjThree}/> */}
             <InfoSectionEbook {...homeObjFive}/>
             <ServicesEbook />
             <Footer />

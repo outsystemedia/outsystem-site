@@ -45,16 +45,16 @@ const Navbar = ( {toggle} ) => {
                                 smooth={true} duration={500} spy={true} exact='true' offset={-80} activeClass="active"
                             >Fontes de Renda</NavLinks>
                         </NavItem>
-                        <NavItem>
+                       {/* <NavItem>
                             <NavLinks to="distri"
                                 smooth={true} duration={500} spy={true} exact='true' offset={-80} activeClass="active"
                             >Distribuição</NavLinks>
-                        </NavItem>
+                        </NavItem> 
                         <NavItem>
                             <NavLinks to="valor"
                                 smooth={true} duration={500} spy={true} exact='true' offset={-80} activeClass="active"
                             >Valor</NavLinks>
-                        </NavItem>
+                        </NavItem> */}
                         <NavItem>
                             <NavLinks to="brinde"
                                 smooth={true} duration={500} spy={true} exact='true' offset={-80} activeClass="active"

@@ -15,14 +15,14 @@ const SidebarEbook = ({isOpen, toggle}) => {
                     <SidebarLink to="fontes" onClick={toggle}>
                         Fontes de Renda
                     </SidebarLink>
-                    <SidebarLink to="distri" onClick={toggle}>
+                    {/* <SidebarLink to="distri" onClick={toggle}>
                         Distribuição
                     </SidebarLink>
                     <SidebarLink to="valor" onClick={toggle}>
                         Valor
-                    </SidebarLink>
+                    </SidebarLink> */}
                     <SidebarLink to="brinde" onClick={toggle}>
-                        Brinde
+                        Bônus
                     </SidebarLink>
                     <SidebarLink to="quero" onClick={toggle}>
                         Quero Viver de Internet
