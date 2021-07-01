@@ -20,10 +20,10 @@ const SidebarEbook = ({isOpen, toggle}) => {
                     </SidebarLink>
                     <SidebarLink to="valor" onClick={toggle}>
                         Valor
-                    </SidebarLink> */}
+                    </SidebarLink> 
                     <SidebarLink to="brinde" onClick={toggle}>
                         Bônus
-                    </SidebarLink>
+                    </SidebarLink> */}
                     <SidebarLink to="quero" onClick={toggle}>
                         Quero Viver de Internet
                     </SidebarLink>

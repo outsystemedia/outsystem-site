@@ -29,7 +29,7 @@ const EbookPage = () => {
             <InfoSectionEbook {...homeObjOne}/>
             {/* <InfoSectionEbook {...homeObjFour}/> */}
             {/* <InfoSectionEbook {...homeObjThree}/> */}
-            <InfoSectionEbook {...homeObjFive}/>
+            {/* <InfoSectionEbook {...homeObjFive}/> */}
             <ServicesEbook />
             <Footer />
         </>
