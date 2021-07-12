@@ -1,6 +1,6 @@
 import svg from '../../images/svg-1.svg';
 import svg2 from '../../images/svg-2.svg';
-import svg3 from '../../images/svg-3.svg';
+import svg3 from '../../images/svg-33.svg';
 
 
 export const homeObjOne = {
@@ -44,9 +44,9 @@ export const homeObjThree = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'CYPTO INVESTMENTS CLUB',
-    headline: ' COLD CLUB',
-    description: 'Está afim de fugir da renda fixa e alcançar uma alta rentabilidade?  Descubra que é simples investir em criptomoedas e tenha ajuda de pessoas que conhecem o mercado.',
+    topLine: 'PLANILHAS',
+    headline: 'CONTROLE SUAS FINANÇAS',
+    description: 'Baixe planilhas para controlar todas suas finanças de uma forma simples e muito organizada.',
     buttonLabel: 'Saiba Mais',
     imgStart: false,
     img: svg3, 
@@ -54,5 +54,5 @@ export const homeObjThree = {
     dark: true,
     primary: true,
     darkText: false,
-    link: '/club'
+    link: '/planilhas'
 };

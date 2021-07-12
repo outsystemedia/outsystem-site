@@ -1,13 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Icon1 from '../../images/vivacall.png'
 import { FaCheckCircle } from 'react-icons/fa'
 import { SocialIcons, SocialIconLink, ServicesCard, ServicesContainer, ServicesH1, ServicesH2, ServicesIcon, ServicesP, ServicesWrapper } from './ServicesElements-ebookpage'
+import  Downloader  from '../Downloader/Downloader'
+import { Buttonebook } from '../ButtonElement-download-ebook';
 const ServicesEbook = () => {
+
+    const [download, setDownload] = useState('');
+
     return (
         <ServicesContainer id="quero">
             <ServicesH1>QUERO MEU EBOOK</ServicesH1>
             <ServicesWrapper>
-                <ServicesCard href="//www.amazon.com/" target="_blank" aria-label="Facebook">
+                <ServicesCard>
                     <ServicesIcon src={Icon1}/>
                     <ServicesH2>VIVA DE INTERNET</ServicesH2>
                     <ServicesP>
@@ -36,9 +41,13 @@ const ServicesEbook = () => {
                             Crie um Mindset empreendedor!
                     </SocialIcons>
                     </ServicesP>
+                        <a href='//pay.hotmart.com/D56738458M' style={{textDecoration: 'none', color: '#fff'}}>
+                        <Buttonebook src="//pay.hotmart.com/D56738458M">Quero Viver de Internet</Buttonebook>
+                        </a>
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>
+        
     )
 }
 

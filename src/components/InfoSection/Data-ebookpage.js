@@ -1,7 +1,7 @@
 import svg from '../../images/svg-12.svg';
 import svg2 from '../../images/viva.png';
 import svg3 from '../../images/svg-13.svg';
-import svg4 from '../../images/kindle.jpg';
+import svg4 from '../../images/hot.png';
 import svg5 from '../../images/planilha.png';
 
 
@@ -46,8 +46,8 @@ export const homeObjThree = {
     lightText: true,
     lightTextDesc: true,
     topLine: 'VOCÊ VAI SE SURPREENDER',
-    headline: 'VALOR',
-    description: 'Pode acreditar, que quando você comparar o preço deste e-book com o conteúdo que ele entrega, você vai achar que é piada! Em menos de 24h aplicando os conhecimentos absorvidos nele, você recupera o dinheiro investido!',
+    headline: 'INVESTIMENTO',
+    description: 'Quando você comparar o preço do ebook com o contéudo dele, você irá se surpreender! Seu investimento pode retornar nas primeiras 24 horas!',
     buttonLabel: 'Eu quero!',
     imgStart: true,
     img: svg3, 
@@ -63,8 +63,8 @@ export const homeObjFour = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'SEGURO E GARANTIDO',
-    headline: 'POR AMAZON',
-    description: 'Como este é nosso primeiro e-book, disponibilizamos ele via Amazon, para que você se sinta seguro e possa ter o conforto de ler no seu Kindle.',
+    headline: 'POR HOTMART',
+    description: 'Como este é nosso primeiro e-book, disponibilizamos ele via Hotmart, para que você se sinta seguro e tenha o conforto de ler em um site de sua confiança.',
     buttonLabel: 'Ir para a Amazon',
     imgStart: false,
     img: svg4, 

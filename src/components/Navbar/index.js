@@ -45,11 +45,11 @@ const Navbar = ( {toggle} ) => {
                                 smooth={true} duration={500} spy={true} exact='true' offset={-80} activeClass="active"
                             >Viva de Internet</NavLinks>
                         </NavItem>
-                       {/* <NavItem>
+                        <NavItem>
                             <NavLinks to="cold"
                                 smooth={true} duration={500} spy={true} exact='true' offset={-80} activeClass="active"
-                            >Cold Club</NavLinks>
-                       </NavItem> */}
+                            >Planilhas</NavLinks>
+                       </NavItem> 
                     </NavMenu>
                     <NavBtn>
                         <NavBtnLink to="/outsystem">Conheça a Outsystem</NavBtnLink>

@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import { MobileIcon, Nav, NavbarContainer, NavBtn, NavBtnLink, NavItem, NavLinks, NavLogo, NavMenu } from './NavbarElements-ebookpage'
+import { MobileIcon, Nav, NavbarContainer, NavItem, NavLinks, NavLogo, NavMenu } from './NavbarElements-ebookpage'
 import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib'
 import { animateScroll as scroll } from 'react-scroll'
@@ -45,7 +45,7 @@ const Navbar = ( {toggle} ) => {
                                 smooth={true} duration={500} spy={true} exact='true' offset={-80} activeClass="active"
                             >Fontes de Renda</NavLinks>
                         </NavItem>
-                       {/* <NavItem>
+                        <NavItem>
                             <NavLinks to="distri"
                                 smooth={true} duration={500} spy={true} exact='true' offset={-80} activeClass="active"
                             >Distribuição</NavLinks>
@@ -54,12 +54,12 @@ const Navbar = ( {toggle} ) => {
                             <NavLinks to="valor"
                                 smooth={true} duration={500} spy={true} exact='true' offset={-80} activeClass="active"
                             >Valor</NavLinks>
-                        </NavItem> */}
-                        {/* <NavItem>
+                        </NavItem> 
+                        <NavItem>
                             <NavLinks to="brinde"
                                 smooth={true} duration={500} spy={true} exact='true' offset={-80} activeClass="active"
                             >Bônus</NavLinks>
-                        </NavItem> */}
+                        </NavItem> 
                         <NavItem>
                             <NavLinks to="quero"
                                 smooth={true} duration={500} spy={true} exact='true' offset={-80} activeClass="active"

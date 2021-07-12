@@ -1,5 +1,5 @@
 import React from 'react'
-import { CloseIcon, Icon, SidebarContainer, SidebarLink, SidebarMenu, SidebarRoute, SidebarWrapper, SideBtnWrap } from './SidebarElements'
+import { CloseIcon, Icon, SidebarContainer, SidebarLink, SidebarMenu, SidebarWrapper, SideBtnWrap } from './SidebarElements'
 
 const SidebarEbook = ({isOpen, toggle}) => {
     return (
@@ -15,7 +15,7 @@ const SidebarEbook = ({isOpen, toggle}) => {
                     <SidebarLink to="fontes" onClick={toggle}>
                         Fontes de Renda
                     </SidebarLink>
-                    {/* <SidebarLink to="distri" onClick={toggle}>
+                    <SidebarLink to="distri" onClick={toggle}>
                         Distribuição
                     </SidebarLink>
                     <SidebarLink to="valor" onClick={toggle}>
@@ -23,7 +23,7 @@ const SidebarEbook = ({isOpen, toggle}) => {
                     </SidebarLink> 
                     <SidebarLink to="brinde" onClick={toggle}>
                         Bônus
-                    </SidebarLink> */}
+                    </SidebarLink>
                     <SidebarLink to="quero" onClick={toggle}>
                         Quero Viver de Internet
                     </SidebarLink>

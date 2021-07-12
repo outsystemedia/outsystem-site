@@ -15,9 +15,9 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SidebarLink to="viva" onClick={toggle}>
                         Viva de Internet
                     </SidebarLink>
-                    {/*<SidebarLink to="cold" onClick={toggle}>
-                        Cold Club
-    </SidebarLink>*/}
+                    <SidebarLink to="cold" onClick={toggle}>
+                        Planilhas
+                    </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
                     <SidebarRoute to="outsystem" onClick={toggle}>

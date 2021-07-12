@@ -7,6 +7,7 @@ import ContatoPage from './pages/contato';
 import EbookPage from './pages/ebook';
 import ClubPage from './pages/club';
 import ParceirosPage from './pages/parceiros';
+import PlanilhasPage from './pages/planilhas';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/ebook" component={EbookPage} exact />
           <Route path="/club" component={ClubPage} exact />
           <Route path="/parceiros" component={ParceirosPage} exact />
+          <Route path="/planilhas" component={PlanilhasPage} exact />
       </Switch>
     </Router>
   );

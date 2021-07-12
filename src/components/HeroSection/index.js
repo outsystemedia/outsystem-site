@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { LoaderImgEbook, LoaderVideoErax, ArrowForward, ArrowRight, HeroBg, HeroBtnWrapper, HeroContainer, HeroContent, HeroH1, HeroP, VideoBg } from './HeroElements'
-import Video from '../../videos/test.jpg'
+import Video from '../../images/city.jpg'
 import { Button } from '../ButtonElement'
 import Video2 from '../../videos/video-erax.mp4'
 import src1 from '../../images/viva.png'

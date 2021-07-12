@@ -28,7 +28,7 @@ const HeroSectionEbook = () => {
                          smooth={true} duration={500} spy={true} exact='true' offset={-80} activeClass="active"
                     >
                         <Button onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true" >
-                        Adquirir Agora! {hover ? <ArrowForward /> : <ArrowRight /> }
+                        Adquira já! {hover ? <ArrowForward /> : <ArrowRight /> }
                         </Button>
                     </NavLinks>
                 </HeroBtnWrapper>

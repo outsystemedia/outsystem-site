@@ -9,6 +9,7 @@ import Scroll from '../components/scroll';
 import HeroSectionEbook from '../components/HeroSection/index-ebookpage'
 import ServicesEbook from '../components/Services/index-ebookpage';
 
+
 const EbookPage = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -27,9 +28,9 @@ const EbookPage = () => {
             <HeroSectionEbook />
             <InfoSectionEbook {...homeObjTwo}/>
             <InfoSectionEbook {...homeObjOne}/>
-            {/* <InfoSectionEbook {...homeObjFour}/> */}
-            {/* <InfoSectionEbook {...homeObjThree}/> */}
-            {/* <InfoSectionEbook {...homeObjFive}/> */}
+            <InfoSectionEbook {...homeObjFour}/> 
+            <InfoSectionEbook {...homeObjThree}/> 
+            <InfoSectionEbook {...homeObjFive}/>
             <ServicesEbook />
             <Footer />
         </>
