@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import { ImgWrap, Img, ArrowForward, ArrowRight, HeroBg, HeroBtnWrapper, HeroContainer, HeroContent, HeroH1, HeroP, VideoBg } from './HeroElements-ebookpage'
-import Video from '../../videos/ebookback.mp4'
+import Video from '../../videos/lan.mp4'
 import { Button } from '../ButtonElement'
-import src1 from '../../images/viva.png'
+import src1 from '../../images/vivalan.png'
 import { NavLinks } from '../Navbar/NavbarElements-ebookpage'
 
 const HeroSectionEbook = () => {
